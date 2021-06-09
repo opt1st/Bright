@@ -6,8 +6,8 @@ use BrightLocal\Exceptions\BatchAddJobException;
 
 $directory = 'google';
 // setup API wrapper
-$api = new Api('<YOUR_API_KEY>', '<YOUR_API_SECRET>');
-// Step 1: Create a new batch
+$api = new Api('815b239416b43f8c23f1d78657ceb669c12a8003', '55f95e5ee45d0');
+
 $batch = $api->createBatch();
 printf('Created batch ID %d%s', $batch->getId(), PHP_EOL);
 // Step 2: Add directory jobs to batch
